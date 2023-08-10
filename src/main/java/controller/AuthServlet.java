@@ -34,7 +34,9 @@ public class AuthServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException,IOException {
         try {
-            login(request, response);
+            login(request, response)
+
+            ;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {

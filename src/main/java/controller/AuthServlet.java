@@ -26,6 +26,8 @@ public class AuthServlet extends HttpServlet {
 
         } catch (SQLException e) {
             e.printStackTrace();
+
+
         }
     }
     @Override

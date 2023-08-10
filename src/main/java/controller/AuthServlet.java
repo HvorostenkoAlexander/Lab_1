@@ -22,6 +22,8 @@ public class AuthServlet extends HttpServlet {
             login(request,response);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
